@@ -17,7 +17,7 @@ export default function Pricing() {
             <div className="bg-gray-200 rounded-lg shadow-lg p-8 text-center" data-aos="fade-up" data-aos-delay="0">
               <h3 className="text-2xl text-gray-400 mb-4 font-semibold">Hobby</h3>
               <div className="text-center">
-                <span className="text-gray-300 text-md font-medium">Up to 50</span>
+                <span className="text-gray-300 text-md font-medium">Up to 100</span>
                 <span className="text-gray-300 text-md ml-2">/ month</span>
               </div>
               <p className="text-gray-300 text-md mb-8">API requests</p>
