@@ -1,4 +1,3 @@
-import PageIllustration from '@/components/page-illustration'
 import Footer from '@/components/ui/footer'
 
 export default function LoggedLayout({
@@ -9,8 +8,6 @@ export default function LoggedLayout({
   return (
     <>
       <main className="grow">
-
-        <PageIllustration />
 
         {children}
 

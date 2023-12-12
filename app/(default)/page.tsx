@@ -1,22 +1,18 @@
 export const metadata = {
   title: 'Trakfy',
-  description: 'Simplifying API Distribution!',
+  description: 'Trakfy',
 }
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Zigzag from '@/components/zigzag'
-import Pricing from '@/components/pricing'
-import FAQ from '@/components/faq'
+import { getUser } from '@/utils/get-user'
+import { redirect } from 'next/navigation'
 
-export default function Home() {
-  return (
-    <>
-      <Hero />
-      <Features />
-      <Zigzag />
-      <Pricing />
-      <FAQ />
-    </>
-  )
+export default async function Home() {
+  const user = await getUser();
+
+  if (!user) {
+    // redirect('/api/auth/login')
+    redirect('/logged')
+  } else {
+    redirect('/logged')
+  }
 }

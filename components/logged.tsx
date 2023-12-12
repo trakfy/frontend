@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'Privacy Policy - Trakfy',
-  description: 'Privacy Policy',
+  title: 'Logged - Trakfy',
+  description: 'Logged',
 }
 
-export default function PrivacyPolicy() {
+export default function Logged() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-60">
@@ -11,7 +11,7 @@ export default function PrivacyPolicy() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Privacy Policy</h1>
+            <h1 className="h1">Logged</h1>
           </div>
 
           {/* Body */}

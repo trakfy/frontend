@@ -3,7 +3,7 @@ export const metadata = {
   description: 'Terms & Conditions',
 }
 
-export default function SignIn() {
+export default function TermsConditions() {
   return (
     <section className="relative">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 mb-60">

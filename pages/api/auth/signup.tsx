@@ -6,7 +6,7 @@ const signupHandler = (req: NextApiRequest, res: NextApiResponse) =>
     authorizationParams: {
       screen_hint: 'signup',
     },
-    returnTo: '/dashboard',
+    returnTo: '/logged',
   });
 
 export default signupHandler;
