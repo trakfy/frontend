@@ -6,7 +6,7 @@ export default async function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-center h-20">
           {/* Logo */}
-          <Link href="/logged" className="block" aria-label="Trakfy">
+          <Link href="/" className="block" aria-label="Trakfy">
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" height="24.000000pt" viewBox="0 0 650.000000 178.000000" preserveAspectRatio="xMidYMid meet">
               <g transform="translate(0.000000,178.000000) scale(0.100000,-0.100000)"
                 fill="#000000" stroke="none">
