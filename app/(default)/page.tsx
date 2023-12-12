@@ -10,8 +10,7 @@ export default async function Home() {
   const user = await getUser();
 
   if (!user) {
-    // redirect('/api/auth/login')
-    redirect('/logged')
+    redirect(process.env.WEBFLOW_URL || '/404')
   } else {
     redirect('/logged')
   }

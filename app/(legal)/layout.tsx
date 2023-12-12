@@ -1,5 +1,3 @@
-import Footer from '@/components/ui/footer'
-
 export default function LegalLayout({
   children,
 }: {
@@ -12,8 +10,6 @@ export default function LegalLayout({
         {children}
 
       </main>
-
-      <Footer />
     </>
   )
 }
